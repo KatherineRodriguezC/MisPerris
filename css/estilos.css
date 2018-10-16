@@ -1,0 +1,259 @@
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+#top {
+  background-color: #85D4B7;
+  width: 100%;
+
+}
+
+#logo {
+  width: 35%;
+}
+
+nav {
+  width: 60%;
+  float: center;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  float: left;
+}
+
+nav ul li a {
+  font-size: 16px;
+  display: inline-block;
+  padding: 10px;
+  color: #FFF;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+nav ul li a:hover {
+  color: #333;
+}
+
+#main {
+  background-color: #6DCCAA;
+  background-size: 60%;
+  width: 100%;
+  height: 500px;
+}
+
+footer {
+  padding: 20px;
+  padding-top: 0;
+  box-sizing: border-box;
+  background-color: #6DCCAA;
+  width: 100%;
+  height: 100px;
+  color: #FFF;
+  font-size: 18px;
+}
+
+address, #slogan, #social {
+  float: left;
+  width: 33%;
+  font-weight: 800;
+}
+
+address {
+  font-style: normal;
+  font-weight: 800;
+}
+
+#slogan p {
+  text-align: center;
+  color: #FFF;
+}
+
+.social {
+  margin: 10px;
+}
+
+#coaching, #winkel {
+  padding: 60px;
+  padding-top: 40px;
+  box-sizing: border-box;
+  width: 100%;
+  height: 90vh;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, sans-serif;
+  font-weight: 700;
+  text-transform: uppercase
+}
+
+.left {
+  width: 50%;
+  float: left;
+  text-align: right;
+  padding-right: 20px;
+  box-sizing: border-box;
+}
+
+.right {
+  width: 50%;
+  float: right;
+  padding-left: 20px;
+  box-sizing: border-box;
+}
+
+.subtitulo {
+  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #777;
+  margin: 0;
+}
+
+hr {
+  display: inline-block;
+  width: 50px;
+  height: 2px;
+  margin: 20px 0;
+  color: #333;
+}
+
+p {
+  font-size: 24px;
+  line-height: 1.9;
+  margin: 0 0 30px 0;
+  color: #000000 ;
+}
+button {
+  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+  color: inherit;
+  background: transparent;
+  border: 2px solid #333;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+button:hover {
+  background-color: #FFCF3F;
+  border-color: #FFCF3F;
+  color: #FFF;
+}
+
+#coaching img {
+  width: 50%;
+}
+
+#credits {
+  width: 100%;
+  height: 15vh;
+  background-color: #e6e6e6;
+}
+
+a {
+  color: #333;
+}
+
+a:hover {
+  color: #333;
+}
+
+.center-crop{
+  max-height: 250px;
+  min-height: 100px;
+  object-fit: cover;
+  object-position: center;
+}
+.opacidad{
+  min-height: 600px;
+  background-color: rgba(133,212,183,0.0)
+  
+}
+
+#form{
+  background: #85D4B7;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+article{
+  background:#ccc; 
+  width:33%; 
+  float:left;
+  padding:10px;
+  box-sizing: border-box;
+  background-clip:content-box;
+  text-align: center;}
+
+.gallery{
+  background:#ccc; 
+  width:100%; 
+  background-clip:content-box;
+  text-align: center;
+}
+
+.img-size{
+  height: 600px;
+  object-fit: cover;
+  object-position: center;
+}
+
+#derecha{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 11.3px;
+  margin-top: -16px;
+  text-align: right;
+  color: 	#969792;
+}
+
+#izquierda{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 11.3px;
+  margin-top: -16px;
+  text-align: left;
+  color: 	#969792;
+}
+
+#main-font-right{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  font-weight: bolder;
+  text-align: right;
+}
+
+#main-font{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  font-weight: bolder;
+  padding-top: 30px;
+  padding-bottom: 15px;
+}
+#guion-derecha{
+  text-align: right;
+  color: 	#6E6E6E;
+  margin-top: -15px;
+}
+#guion-izquierda{
+  text-align: left;
+  color: 	#6E6E6E;
+  margin-top: -15px;
+}
+
+small{
+  color: #000000;
+}
